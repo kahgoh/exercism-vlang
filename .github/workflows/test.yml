@@ -35,6 +35,8 @@ jobs:
 
       - name: Setup Vlang
         uses: vlang/setup-v@51668e85beab02cce1907b99b6ad039e71d98994
+        with:
+          check-latest: false 
 
       # - name: Install project dependencies
       #   run: <install dependencies>
