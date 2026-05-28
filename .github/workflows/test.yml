@@ -37,6 +37,7 @@ jobs:
         uses: vlang/setup-v@7ba18b437b1d46ae2ef44e153b7c1a373afc0378
         with:
           version: 'master' # 0.5.1
+          check-latest: true
 
       # - name: Install project dependencies
       #   run: <install dependencies>
