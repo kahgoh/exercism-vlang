@@ -36,7 +36,7 @@ jobs:
       - name: Setup Vlang
         uses: vlang/setup-v@7ba18b437b1d46ae2ef44e153b7c1a373afc0378
         with:
-          version: '0.5.0' # 0.5.1
+          version: 'master' # 0.5.1
 
       # - name: Install project dependencies
       #   run: <install dependencies>
